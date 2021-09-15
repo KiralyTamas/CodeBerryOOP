@@ -1,0 +1,35 @@
+body{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+background-image: linear-gradient(rgb(123, 123, 253),rgb(0, 0, 255));
+}
+#experience{
+    display: block;
+    position: relative;
+    width: 85vw;
+    height: max-content;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    background-color: blueviolet;
+}
+#firstTask{
+    display: block;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    background-color: brown;
+}
+#input{
+    display: block;
+    position: relative;
+    padding: 2vh;
+
+}
+#input input{
+display: block;
+position: relative;
+margin-bottom: 1vh;
+
+}
