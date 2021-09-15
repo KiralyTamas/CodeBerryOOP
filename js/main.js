@@ -1,15 +1,20 @@
 // A első feladat, hogy egy Gyártó-fügvényt készítsünk
 
+let firstButton = document.getElementById("firstButton");
+let animalName = document.getElementById("animal").value;
+let description = document.getElementById("description").value;
+let price = document.getElementById("price").value;
+let startFirst = firstFactory(animalName, description, price);
 function firstFactory(name, description, price) {
   return {
     neve: name,
     leiras: description,
     osszeg: price,
+    content: document.getElementById("content"),
     currency: "EUR",
     print: function () {
-      return this.neve + this.leiras + this.osszeg + this.currency;
+      content.innerHTML = this.neve + this.leiras + this.osszeg + this.currency;
     }
   }
 }
-const startFirst = firstFactory("kutya", " a csajok kedvence ", 35);
-startFirst.print();
+firstButton.addEventListener("click", startFirst.print());
