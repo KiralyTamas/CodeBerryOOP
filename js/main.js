@@ -1,13 +1,13 @@
 // A első feladat, hogy egy Gyártó-fügvényt készítsünk
 
 let firstButton = document.getElementById("firstButton");
-let animalName = document.getElementById("animal").value;
-let description = document.getElementById("description").value;
-let price = document.getElementById("price").value;
-let startFirst = firstFactory(animalName, description, price);
-function firstFactory(name, description, price) {
+let animalName = "dfdgf";
+let description = "documevalue";
+let price = "documenvalue";
+let startFirst = firstFactory(animalName, description, price); //Valahol itt lesz a probléma
+function firstFactory(animalName, description, price) {
   return {
-    neve: name,
+    neve: animalName,
     leiras: description,
     osszeg: price,
     content: document.getElementById("content"),
@@ -17,4 +17,4 @@ function firstFactory(name, description, price) {
     }
   }
 }
-firstButton.addEventListener("click", startFirst.print());
+firstButton.addEventListener("click", startFirst.print.bind());
