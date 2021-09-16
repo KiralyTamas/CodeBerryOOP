@@ -28,6 +28,7 @@ background-image: linear-gradient(rgb(123, 123, 253),rgb(0, 0, 255));
     display: block;
     position: relative;
     max-width: 50%;
+    height: max-content;
     padding: 2vh;
     background-color: lawngreen;
 }
