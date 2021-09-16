@@ -16,7 +16,7 @@ class firstFactory {
     this.content = document.getElementById("content");
     this.currency = "EUR";
     this.print = function () {
-      content.innerHTML = "A kedvenc állatom a " + this.neve + ", mert " + this.leiras + ". Egy ilyen kutyusnak az összege: " + this.osszeg + this.currency+".";
+      content.innerHTML = "A kedvenc állatom a " + this.neve + ", mert " + this.leiras + ". Egy ilyen kutyusnak az összege: " + this.osszeg + " " + this.currency+".";
     };
   }
 }
