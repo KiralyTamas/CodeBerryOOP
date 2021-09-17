@@ -16,7 +16,6 @@ class firstFactory {
     };
   }
 }
-function start() {
+(function () {
   firstButton.addEventListener("click", () => new firstFactory(this.animalName, description, price).print());
-}
-start();
+})();
