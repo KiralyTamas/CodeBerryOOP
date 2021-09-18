@@ -1,7 +1,9 @@
 // A első feladat, hogy egy Gyártó-fügvényt készítsünk
 
 const firstButton = document.getElementById("firstButton");
+
 //Itt kezdődik a szülő konstruktor kódja
+
 class FirstFactory {
   constructor(animalClass, description, price) {
     animalClass = document.getElementById("animal").value;
@@ -14,20 +16,26 @@ class FirstFactory {
     this.currency = "EUR";
   }
 };
+
 //Itt található a FirstFactory prototipus fügvénye
+
 FirstFactory.prototype.print = function () {
   content.innerHTML = "A kedvenc állatom a " + this.neve + ", " + this.leiras + ". Egy ilyen kutyusnak az összege: " + this.osszeg + " " + this.currency + ".";
 };
+
 //Itt található az eseményfigyelő, amit a firstButton gombra illesztettem rá.
+
 let actions = function () {
   new FirstFactory().print();
   new FirstChild().family();
-
 };
+
 (function () {
   firstButton.addEventListener("click", actions);
 })();
+
 // Itt kezdődik a gyerek konstruktor kódja
+
 
 class FirstChild {
   constructor(animalClass, age, color) {
@@ -39,13 +47,9 @@ class FirstChild {
     this.color = color;
   }
 };
+
+//Itt található a FirstChild prototipus kódja
+
 FirstChild.prototype.family = function () {
   content2.innerHTML = "Az ilyen kicsi " + this.neve + " a legédesebb " + this.age + " hetes korában és " + this.color + " szinben.";
-  value: FirstChild,
-  enumerable: false,
-  writable: true
-}
-);
-FirstChild.prototype.family = function () {
-  content2.innerHTML = "djfjgndfsgsjdf" + this.animalClass + "dff" + this.age + "dgdf" + this.color;
 };
