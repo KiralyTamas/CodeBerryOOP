@@ -20,8 +20,8 @@ FirstFactory.prototype.print = function () {
 };
 //Itt található az eseményfigyelő, amit a firstButton gombra illesztettem rá.
 let actions = function () {
-  new FirstFactory(this.animalClass, description, price).print();
-  new FirstChild(this.animalClass, age, color).family();
+  new FirstFactory().print();
+  new FirstChild().family();
 
 };
 (function () {
