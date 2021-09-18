@@ -38,9 +38,9 @@ class FirstChild {
     this.age = age;
     this.color = color;
   }
-}
-FirstChild.prototype = Object.create(FirstFactory.prototype);
-Object.defineProperty(FirstChild.prototype, 'family', {
+};
+FirstChild.prototype.family = function () {
+  content2.innerHTML = "Az ilyen kicsi " + this.neve + " a legédesebb " + this.age + " hetes korában és " + this.color + " szinben.";
   value: FirstChild,
   enumerable: false,
   writable: true
