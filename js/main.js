@@ -1,6 +1,6 @@
 // A első feladat, hogy egy Gyártó-fügvényt készítsünk
 
-firstButton = document.getElementById("firstButton");
+const firstButton = document.getElementById("firstButton");
 //Itt kezdődik a szülő konstruktor kódja
 class FirstFactory {
   constructor(animalClass, description, price) {
