@@ -44,5 +44,6 @@ body {
 	position: relative;
 	width: max-content;
 	height: max-content;
+    margin-right: 5px;
 	background-color: blanchedalmond;
 }
