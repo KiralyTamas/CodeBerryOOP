@@ -36,10 +36,9 @@ let actions = function () {
 
 // Itt kezdődik a gyerek konstruktor kódja
 
-
-class FirstChild {
-  constructor(animalClass, age, color) {
-    new FirstFactory.call(this, animalClass)
+class FirstChild extends FirstFactory {
+  constructor(neve, age, color) {
+    super(neve);
     age = document.getElementById("age").value;
     color = document.getElementById("color").value;
     this.content2 = document.getElementById("content2");
