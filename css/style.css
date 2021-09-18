@@ -1,47 +1,48 @@
-body{
-    display: block;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-background-image: linear-gradient(rgb(123, 123, 253),rgb(0, 0, 255));
+body {
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgb(123, 123, 253), rgb(0, 0, 255));
 }
-#experience{
-    display: block;
-    position: relative;
-    max-width: 85vw;
-    height: max-content;
-    margin-left: 3vw;
-    margin-top: 5vh;
-    padding: 10px 0 10px 10px;
-    background-color: blueviolet;
+#experience {
+	display: block;
+	position: relative;
+	max-width: 85vw;
+	height: max-content;
+	margin-left: 3vw;
+	margin-top: 5vh;
+	padding: 10px 0 10px 10px;
+	background-color: blueviolet;
 }
-#firstTask{
-    display: flex;
-    align-items: center;
-    position: relative;
-    max-width: 25%;
-    height: max-content;
-    margin-right: 10px;
-    background-color: brown;
+#firstTask {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 50%;
+	height: max-content;
+	margin-right: 10px;
+	background-color: brown;
 }
-#input{
-    display: block;
-    position: relative;
-    max-width: 50%;
-    height: max-content;
-    padding: 2vh;
-    background-color: lawngreen;
+#input {
+	display: block;
+	position: relative;
+	max-width: 50%;
+	height: max-content;
+	padding: 2vh;
+	background-color: lawngreen;
 }
-#input input{
-display: block;
-position: relative;
-max-width: 100%;
-margin-bottom: 1vh;
+#input input {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	margin-bottom: 1vh;
 }
-#content{
-    display: block;
-    position: relative;
-    width: max-content;
-    height: max-content;
-    background-color: blanchedalmond;
+#content,
+#content2 {
+	display: block;
+	position: relative;
+	width: max-content;
+	height: max-content;
+	background-color: blanchedalmond;
 }
